@@ -46,6 +46,8 @@ private slots:
 
     void on_btn_update_clicked();
 
+    void on_btn_export_clicked();
+
 private:
     Ui::MainWindow *ui;
     MyDatabase db;

@@ -404,3 +404,10 @@ void MainWindow::on_btn_update_clicked()
 
     }
 }
+
+void MainWindow::on_btn_export_clicked()
+{
+    ss->export_students_csv();
+    QMessageBox::information(this, "Exported Successfully", "Students have been exported to CSV file successfully");
+}
+

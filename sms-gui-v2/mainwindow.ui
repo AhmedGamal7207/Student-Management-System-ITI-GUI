@@ -228,7 +228,7 @@ QPushButton:disabled {
 </string>
     </property>
     <property name="currentIndex">
-     <number>5</number>
+     <number>2</number>
     </property>
     <widget class="QWidget" name="dashboard_page">
      <widget class="QFrame" name="frame_title">
@@ -802,7 +802,7 @@ QTableView, QTableWidget {
         <x>60</x>
         <y>160</y>
         <width>931</width>
-        <height>531</height>
+        <height>491</height>
        </rect>
       </property>
       <property name="styleSheet">
@@ -887,6 +887,22 @@ QTableView, QTableWidget {
         <string>3.97</string>
        </property>
       </item>
+     </widget>
+     <widget class="QPushButton" name="btn_export">
+      <property name="geometry">
+       <rect>
+        <x>850</x>
+        <y>660</y>
+        <width>141</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="text">
+       <string>Export to CSV</string>
+      </property>
      </widget>
     </widget>
     <widget class="QWidget" name="search_students_page">
